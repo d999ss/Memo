@@ -1,6 +1,6 @@
 # Memo AI - A Modern iOS Reminder App
 
-![Memo AI Banner](Screenshots/banner.png)
+![Memo AI Banner](Screenshots/memo_ai_banner.png)
 
 Memo AI is a sophisticated iOS reminder app built with SwiftUI. It leverages CoreData for robust data persistence and provides a modern, intuitive interface for managing your daily tasks and reminders.
 
