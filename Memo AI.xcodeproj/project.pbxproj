@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5C581F282AB47EB1006F94D1 /* Swifty_ReminderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C581F272AB47EB1006F94D1 /* Swifty_ReminderApp.swift */; };
+		5C581F282AB47EB1006F94D1 /* MemoAI_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C581F272AB47EB1006F94D1 /* MemoAI_App.swift */; };
 		5C581F2A2AB47EB1006F94D1 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C581F292AB47EB1006F94D1 /* HomeView.swift */; };
 		5C581F2C2AB47EB3006F94D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C581F2B2AB47EB3006F94D1 /* Assets.xcassets */; };
 		5C581F2F2AB47EB3006F94D1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C581F2E2AB47EB3006F94D1 /* Preview Assets.xcassets */; };
@@ -43,25 +43,25 @@
 			containerPortal = 5C581F1C2AB47EB1006F94D1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 5C581F232AB47EB1006F94D1;
-			remoteInfo = "Swifty Reminder";
+			remoteInfo = "Memo AI";
 		};
 		5C581F3F2AB47EB4006F94D1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5C581F1C2AB47EB1006F94D1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 5C581F232AB47EB1006F94D1;
-			remoteInfo = "Swifty Reminder";
+			remoteInfo = "Memo AI";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5C581F242AB47EB1006F94D1 /* Swifty Reminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swifty Reminder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5C581F272AB47EB1006F94D1 /* Swifty_ReminderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swifty_ReminderApp.swift; sourceTree = "<group>"; };
+		5C581F242AB47EB1006F94D1 /* Memo AI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Memo AI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C581F272AB47EB1006F94D1 /* MemoAI_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoAI_App.swift; sourceTree = "<group>"; };
 		5C581F292AB47EB1006F94D1 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		5C581F2B2AB47EB3006F94D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C581F2E2AB47EB3006F94D1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		5C581F342AB47EB4006F94D1 /* Swifty ReminderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swifty ReminderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5C581F3E2AB47EB4006F94D1 /* Swifty ReminderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swifty ReminderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C581F342AB47EB4006F94D1 /* Memo AITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Memo AITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C581F3E2AB47EB4006F94D1 /* Memo AIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Memo AIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C581F522AB49C11006F94D1 /* CoreDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataProvider.swift; sourceTree = "<group>"; };
 		5C581F552AB58E52006F94D1 /* RemindersModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RemindersModel.xcdatamodel; sourceTree = "<group>"; };
 		5C581F582AB5CD15006F94D1 /* MyList+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MyList+CoreDataClass.swift"; sourceTree = "<group>"; };
@@ -116,7 +116,7 @@
 		5C581F1B2AB47EB1006F94D1 = {
 			isa = PBXGroup;
 			children = (
-				5C581F262AB47EB1006F94D1 /* Swifty Reminder */,
+				5C581F262AB47EB1006F94D1 /* Memo AI */,
 				5C581F252AB47EB1006F94D1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -124,14 +124,14 @@
 		5C581F252AB47EB1006F94D1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5C581F242AB47EB1006F94D1 /* Swifty Reminder.app */,
-				5C581F342AB47EB4006F94D1 /* Swifty ReminderTests.xctest */,
-				5C581F3E2AB47EB4006F94D1 /* Swifty ReminderUITests.xctest */,
+				5C581F242AB47EB1006F94D1 /* Memo AI.app */,
+				5C581F342AB47EB4006F94D1 /* Memo AITests.xctest */,
+				5C581F3E2AB47EB4006F94D1 /* Memo AIUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5C581F262AB47EB1006F94D1 /* Swifty Reminder */ = {
+		5C581F262AB47EB1006F94D1 /* Memo AI */ = {
 			isa = PBXGroup;
 			children = (
 				5CAB3A072ACF13E100634047 /* Managers */,
@@ -142,12 +142,12 @@
 				5C581F5C2AB5D0F8006F94D1 /* Views */,
 				5C581F572AB5CCC5006F94D1 /* Models */,
 				5C581F512AB49BEC006F94D1 /* Providers */,
-				5C581F272AB47EB1006F94D1 /* Swifty_ReminderApp.swift */,
+				5C581F272AB47EB1006F94D1 /* MemoAI_App.swift */,
 				5C581F2B2AB47EB3006F94D1 /* Assets.xcassets */,
 				5C581F2D2AB47EB3006F94D1 /* Preview Content */,
 				5C581F542AB58E52006F94D1 /* RemindersModel.xcdatamodeld */,
 			);
-			path = "Swifty Reminder";
+			path = "Memo AI";
 			sourceTree = "<group>";
 		};
 		5C581F2D2AB47EB3006F94D1 /* Preview Content */ = {
@@ -249,9 +249,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5C581F232AB47EB1006F94D1 /* Swifty Reminder */ = {
+		5C581F232AB47EB1006F94D1 /* Memo AI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5C581F482AB47EB4006F94D1 /* Build configuration list for PBXNativeTarget "Swifty Reminder" */;
+			buildConfigurationList = 5C581F482AB47EB4006F94D1 /* Build configuration list for PBXNativeTarget "Memo AI" */;
 			buildPhases = (
 				5C581F202AB47EB1006F94D1 /* Sources */,
 				5C581F212AB47EB1006F94D1 /* Frameworks */,
@@ -261,14 +261,14 @@
 			);
 			dependencies = (
 			);
-			name = "Swifty Reminder";
-			productName = "Swifty Reminder";
-			productReference = 5C581F242AB47EB1006F94D1 /* Swifty Reminder.app */;
+			name = "Memo AI";
+			productName = "Memo AI";
+			productReference = 5C581F242AB47EB1006F94D1 /* Memo AI.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5C581F332AB47EB4006F94D1 /* Swifty ReminderTests */ = {
+		5C581F332AB47EB4006F94D1 /* Memo AITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5C581F4B2AB47EB4006F94D1 /* Build configuration list for PBXNativeTarget "Swifty ReminderTests" */;
+			buildConfigurationList = 5C581F4B2AB47EB4006F94D1 /* Build configuration list for PBXNativeTarget "Memo AITests" */;
 			buildPhases = (
 				5C581F302AB47EB4006F94D1 /* Sources */,
 				5C581F312AB47EB4006F94D1 /* Frameworks */,
@@ -279,14 +279,14 @@
 			dependencies = (
 				5C581F362AB47EB4006F94D1 /* PBXTargetDependency */,
 			);
-			name = "Swifty ReminderTests";
-			productName = "Swifty ReminderTests";
-			productReference = 5C581F342AB47EB4006F94D1 /* Swifty ReminderTests.xctest */;
+			name = "Memo AITests";
+			productName = "Memo AITests";
+			productReference = 5C581F342AB47EB4006F94D1 /* Memo AITests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		5C581F3D2AB47EB4006F94D1 /* Swifty ReminderUITests */ = {
+		5C581F3D2AB47EB4006F94D1 /* Memo AIUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5C581F4E2AB47EB4006F94D1 /* Build configuration list for PBXNativeTarget "Swifty ReminderUITests" */;
+			buildConfigurationList = 5C581F4E2AB47EB4006F94D1 /* Build configuration list for PBXNativeTarget "Memo AIUITests" */;
 			buildPhases = (
 				5C581F3A2AB47EB4006F94D1 /* Sources */,
 				5C581F3B2AB47EB4006F94D1 /* Frameworks */,
@@ -297,9 +297,9 @@
 			dependencies = (
 				5C581F402AB47EB4006F94D1 /* PBXTargetDependency */,
 			);
-			name = "Swifty ReminderUITests";
-			productName = "Swifty ReminderUITests";
-			productReference = 5C581F3E2AB47EB4006F94D1 /* Swifty ReminderUITests.xctest */;
+			name = "Memo AIUITests";
+			productName = "Memo AIUITests";
+			productReference = 5C581F3E2AB47EB4006F94D1 /* Memo AIUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -310,7 +310,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
-				LastUpgradeCheck = 1520;
+				LastUpgradeCheck = 1620;
 				TargetAttributes = {
 					5C581F232AB47EB1006F94D1 = {
 						CreatedOnToolsVersion = 14.3.1;
@@ -325,7 +325,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5C581F1F2AB47EB1006F94D1 /* Build configuration list for PBXProject "Swifty Reminder" */;
+			buildConfigurationList = 5C581F1F2AB47EB1006F94D1 /* Build configuration list for PBXProject "Memo AI" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -338,9 +338,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5C581F232AB47EB1006F94D1 /* Swifty Reminder */,
-				5C581F332AB47EB4006F94D1 /* Swifty ReminderTests */,
-				5C581F3D2AB47EB4006F94D1 /* Swifty ReminderUITests */,
+				5C581F232AB47EB1006F94D1 /* Memo AI */,
+				5C581F332AB47EB4006F94D1 /* Memo AITests */,
+				5C581F3D2AB47EB4006F94D1 /* Memo AIUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -386,7 +386,7 @@
 				5CB8E0B22B63E26100859405 /* Color+Extensions.swift in Sources */,
 				5C581F2A2AB47EB1006F94D1 /* HomeView.swift in Sources */,
 				5C581F562AB58E52006F94D1 /* RemindersModel.xcdatamodeld in Sources */,
-				5C581F282AB47EB1006F94D1 /* Swifty_ReminderApp.swift in Sources */,
+				5C581F282AB47EB1006F94D1 /* MemoAI_App.swift in Sources */,
 				5CA02F092ABB5B9200D196C0 /* ReminderEditConfig.swift in Sources */,
 				5CBC89AA2AB9C4110031A884 /* Date+Extensions.swift in Sources */,
 				5C61B2B82AC0A6A800AE1B2B /* Delay.swift in Sources */,
@@ -424,12 +424,12 @@
 /* Begin PBXTargetDependency section */
 		5C581F362AB47EB4006F94D1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5C581F232AB47EB1006F94D1 /* Swifty Reminder */;
+			target = 5C581F232AB47EB1006F94D1 /* Memo AI */;
 			targetProxy = 5C581F352AB47EB4006F94D1 /* PBXContainerItemProxy */;
 		};
 		5C581F402AB47EB4006F94D1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5C581F232AB47EB1006F94D1 /* Swifty Reminder */;
+			target = 5C581F232AB47EB1006F94D1 /* Memo AI */;
 			targetProxy = 5C581F3F2AB47EB4006F94D1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -556,27 +556,36 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Swifty Reminder/Preview Content\"";
-				DEVELOPMENT_TEAM = 96U7DGUQDM;
+				DEVELOPMENT_ASSET_PATHS = "\"Memo AI/Preview Content\"";
+				DEVELOPMENT_TEAM = 3864YR83JA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Memo AI";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.amanbind.Swifty-Reminder";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.memoai.app;
+				PRODUCT_NAME = "Memo AI";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -585,110 +594,115 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Swifty Reminder/Preview Content\"";
-				DEVELOPMENT_TEAM = 96U7DGUQDM;
+				DEVELOPMENT_ASSET_PATHS = "\"Memo AI/Preview Content\"";
+				DEVELOPMENT_TEAM = 3864YR83JA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Memo AI";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.amanbind.Swifty-Reminder";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.memoai.app;
+				PRODUCT_NAME = "Memo AI";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		5C581F4C2AB47EB4006F94D1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 96U7DGUQDM;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.amanbind.Swifty-ReminderTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.memoai.app-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swifty Reminder.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Swifty Reminder";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Memo AI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Memo AI";
 			};
 			name = Debug;
 		};
 		5C581F4D2AB47EB4006F94D1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 96U7DGUQDM;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.amanbind.Swifty-ReminderTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.memoai.app-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swifty Reminder.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Swifty Reminder";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Memo AI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Memo AI";
 			};
 			name = Release;
 		};
 		5C581F4F2AB47EB4006F94D1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 96U7DGUQDM;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.amanbind.Swifty-ReminderUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.memoai.app-UITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Swifty Reminder";
+				TEST_TARGET_NAME = "Memo AI";
 			};
 			name = Debug;
 		};
 		5C581F502AB47EB4006F94D1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 96U7DGUQDM;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.amanbind.Swifty-ReminderUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.memoai.app-UITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Swifty Reminder";
+				TEST_TARGET_NAME = "Memo AI";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5C581F1F2AB47EB1006F94D1 /* Build configuration list for PBXProject "Swifty Reminder" */ = {
+		5C581F1F2AB47EB1006F94D1 /* Build configuration list for PBXProject "Memo AI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5C581F462AB47EB4006F94D1 /* Debug */,
@@ -697,7 +711,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5C581F482AB47EB4006F94D1 /* Build configuration list for PBXNativeTarget "Swifty Reminder" */ = {
+		5C581F482AB47EB4006F94D1 /* Build configuration list for PBXNativeTarget "Memo AI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5C581F492AB47EB4006F94D1 /* Debug */,
@@ -706,7 +720,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5C581F4B2AB47EB4006F94D1 /* Build configuration list for PBXNativeTarget "Swifty ReminderTests" */ = {
+		5C581F4B2AB47EB4006F94D1 /* Build configuration list for PBXNativeTarget "Memo AITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5C581F4C2AB47EB4006F94D1 /* Debug */,
@@ -715,7 +729,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5C581F4E2AB47EB4006F94D1 /* Build configuration list for PBXNativeTarget "Swifty ReminderUITests" */ = {
+		5C581F4E2AB47EB4006F94D1 /* Build configuration list for PBXNativeTarget "Memo AIUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5C581F4F2AB47EB4006F94D1 /* Debug */,

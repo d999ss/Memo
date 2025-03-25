@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1520"
+   LastUpgradeVersion = "1620"
    version = "1.7">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5C581F232AB47EB1006F94D1"
-               BuildableName = "Swifty Reminder.app"
-               BlueprintName = "Swifty Reminder"
-               ReferencedContainer = "container:Swifty Reminder.xcodeproj">
+               BuildableName = "Memo AI.app"
+               BlueprintName = "Memo AI"
+               ReferencedContainer = "container:Memo AI.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,9 +35,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5C581F332AB47EB4006F94D1"
-               BuildableName = "Swifty ReminderTests.xctest"
-               BlueprintName = "Swifty ReminderTests"
-               ReferencedContainer = "container:Swifty Reminder.xcodeproj">
+               BuildableName = "Memo AITests.xctest"
+               BlueprintName = "Memo AITests"
+               ReferencedContainer = "container:Memo AI.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -46,9 +46,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5C581F3D2AB47EB4006F94D1"
-               BuildableName = "Swifty ReminderUITests.xctest"
-               BlueprintName = "Swifty ReminderUITests"
-               ReferencedContainer = "container:Swifty Reminder.xcodeproj">
+               BuildableName = "Memo AIUITests.xctest"
+               BlueprintName = "Memo AIUITests"
+               ReferencedContainer = "container:Memo AI.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -68,9 +68,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5C581F232AB47EB1006F94D1"
-            BuildableName = "Swifty Reminder.app"
-            BlueprintName = "Swifty Reminder"
-            ReferencedContainer = "container:Swifty Reminder.xcodeproj">
+            BuildableName = "Memo AI.app"
+            BlueprintName = "Memo AI"
+            ReferencedContainer = "container:Memo AI.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -85,9 +85,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5C581F232AB47EB1006F94D1"
-            BuildableName = "Swifty Reminder.app"
-            BlueprintName = "Swifty Reminder"
-            ReferencedContainer = "container:Swifty Reminder.xcodeproj">
+            BuildableName = "Memo AI.app"
+            BlueprintName = "Memo AI"
+            ReferencedContainer = "container:Memo AI.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
