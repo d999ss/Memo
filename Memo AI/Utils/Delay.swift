@@ -1,6 +1,6 @@
 //
 //  Delay.swift
-//  Swifty Reminder
+//  Memo AI App
 //
 //  Created by Aman Bind on 24/09/23.
 //

@@ -1,6 +1,6 @@
 //
 //  ReminderDetailView.swift
-//  Swifty Reminder
+//  Memo AI
 //
 //  Created by Aman Bind on 20/09/23.
 //
