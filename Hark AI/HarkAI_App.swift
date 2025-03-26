@@ -1,15 +1,18 @@
 //
-//  MemoAI_App.swift
-//  Memo AI
+//  HarkAI_App.swift
+//  Hark AI
 //
-//  Copyright 2025 Memo AI. All rights reserved.
+//  Copyright 2025 Hark AI. All rights reserved.
 //
 
 import SwiftUI
 import UserNotifications
 
 @main
-struct MemoAI_App: App {
+struct HarkAI_App: App {
+    let persistenceController = PersistenceController.shared
+    @StateObject private var reminderService = ReminderService()
+    
     init() {
         // Request notification authorization asynchronously
         Task.init {
@@ -26,7 +29,8 @@ struct MemoAI_App: App {
     var body: some Scene {
         WindowGroup {
             HomeView()
-                .environment(\.managedObjectContext, CoreDataProvider.shared.persistentContainer.viewContext)
+                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+                .environmentObject(reminderService)
         }
     }
 }

@@ -43,25 +43,25 @@
 			containerPortal = 5C581F1C2AB47EB1006F94D1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 5C581F232AB47EB1006F94D1;
-			remoteInfo = "Memo AI";
+			remoteInfo = "Hark AI";
 		};
 		5C581F3F2AB47EB4006F94D1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5C581F1C2AB47EB1006F94D1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 5C581F232AB47EB1006F94D1;
-			remoteInfo = "Memo AI";
+			remoteInfo = "Hark AI";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5C581F242AB47EB1006F94D1 /* Memo AI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Memo AI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C581F242AB47EB1006F94D1 /* Hark AI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hark AI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C581F272AB47EB1006F94D1 /* MemoAI_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoAI_App.swift; sourceTree = "<group>"; };
 		5C581F292AB47EB1006F94D1 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		5C581F2B2AB47EB3006F94D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C581F2E2AB47EB3006F94D1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		5C581F342AB47EB4006F94D1 /* Memo AITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Memo AITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5C581F3E2AB47EB4006F94D1 /* Memo AIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Memo AIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C581F342AB47EB4006F94D1 /* Hark AITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hark AITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C581F3E2AB47EB4006F94D1 /* Hark AIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hark AIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C581F522AB49C11006F94D1 /* CoreDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataProvider.swift; sourceTree = "<group>"; };
 		5C581F552AB58E52006F94D1 /* RemindersModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RemindersModel.xcdatamodel; sourceTree = "<group>"; };
 		5C581F582AB5CD15006F94D1 /* MyList+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MyList+CoreDataClass.swift"; sourceTree = "<group>"; };
@@ -116,7 +116,7 @@
 		5C581F1B2AB47EB1006F94D1 = {
 			isa = PBXGroup;
 			children = (
-				5C581F262AB47EB1006F94D1 /* Memo AI */,
+				5C581F262AB47EB1006F94D1 /* Hark AI */,
 				5C581F252AB47EB1006F94D1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -124,14 +124,14 @@
 		5C581F252AB47EB1006F94D1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5C581F242AB47EB1006F94D1 /* Memo AI.app */,
-				5C581F342AB47EB4006F94D1 /* Memo AITests.xctest */,
-				5C581F3E2AB47EB4006F94D1 /* Memo AIUITests.xctest */,
+				5C581F242AB47EB1006F94D1 /* Hark AI.app */,
+				5C581F342AB47EB4006F94D1 /* Hark AITests.xctest */,
+				5C581F3E2AB47EB4006F94D1 /* Hark AIUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5C581F262AB47EB1006F94D1 /* Memo AI */ = {
+		5C581F262AB47EB1006F94D1 /* Hark AI */ = {
 			isa = PBXGroup;
 			children = (
 				5CAB3A072ACF13E100634047 /* Managers */,
@@ -147,7 +147,7 @@
 				5C581F2D2AB47EB3006F94D1 /* Preview Content */,
 				5C581F542AB58E52006F94D1 /* RemindersModel.xcdatamodeld */,
 			);
-			path = "Memo AI";
+			path = "Hark AI";
 			sourceTree = "<group>";
 		};
 		5C581F2D2AB47EB3006F94D1 /* Preview Content */ = {
@@ -249,9 +249,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5C581F232AB47EB1006F94D1 /* Memo AI */ = {
+		5C581F232AB47EB1006F94D1 /* Hark AI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5C581F482AB47EB4006F94D1 /* Build configuration list for PBXNativeTarget "Memo AI" */;
+			buildConfigurationList = 5C581F482AB47EB4006F94D1 /* Build configuration list for PBXNativeTarget "Hark AI" */;
 			buildPhases = (
 				5C581F202AB47EB1006F94D1 /* Sources */,
 				5C581F212AB47EB1006F94D1 /* Frameworks */,
@@ -261,14 +261,14 @@
 			);
 			dependencies = (
 			);
-			name = "Memo AI";
-			productName = "Memo AI";
-			productReference = 5C581F242AB47EB1006F94D1 /* Memo AI.app */;
+			name = "Hark AI";
+			productName = "Hark AI";
+			productReference = 5C581F242AB47EB1006F94D1 /* Hark AI.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5C581F332AB47EB4006F94D1 /* Memo AITests */ = {
+		5C581F332AB47EB4006F94D1 /* Hark AITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5C581F4B2AB47EB4006F94D1 /* Build configuration list for PBXNativeTarget "Memo AITests" */;
+			buildConfigurationList = 5C581F4B2AB47EB4006F94D1 /* Build configuration list for PBXNativeTarget "Hark AITests" */;
 			buildPhases = (
 				5C581F302AB47EB4006F94D1 /* Sources */,
 				5C581F312AB47EB4006F94D1 /* Frameworks */,
@@ -279,14 +279,14 @@
 			dependencies = (
 				5C581F362AB47EB4006F94D1 /* PBXTargetDependency */,
 			);
-			name = "Memo AITests";
-			productName = "Memo AITests";
-			productReference = 5C581F342AB47EB4006F94D1 /* Memo AITests.xctest */;
+			name = "Hark AITests";
+			productName = "Hark AITests";
+			productReference = 5C581F342AB47EB4006F94D1 /* Hark AITests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		5C581F3D2AB47EB4006F94D1 /* Memo AIUITests */ = {
+		5C581F3D2AB47EB4006F94D1 /* Hark AIUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5C581F4E2AB47EB4006F94D1 /* Build configuration list for PBXNativeTarget "Memo AIUITests" */;
+			buildConfigurationList = 5C581F4E2AB47EB4006F94D1 /* Build configuration list for PBXNativeTarget "Hark AIUITests" */;
 			buildPhases = (
 				5C581F3A2AB47EB4006F94D1 /* Sources */,
 				5C581F3B2AB47EB4006F94D1 /* Frameworks */,
@@ -297,9 +297,9 @@
 			dependencies = (
 				5C581F402AB47EB4006F94D1 /* PBXTargetDependency */,
 			);
-			name = "Memo AIUITests";
-			productName = "Memo AIUITests";
-			productReference = 5C581F3E2AB47EB4006F94D1 /* Memo AIUITests.xctest */;
+			name = "Hark AIUITests";
+			productName = "Hark AIUITests";
+			productReference = 5C581F3E2AB47EB4006F94D1 /* Hark AIUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -325,7 +325,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5C581F1F2AB47EB1006F94D1 /* Build configuration list for PBXProject "Memo AI" */;
+			buildConfigurationList = 5C581F1F2AB47EB1006F94D1 /* Build configuration list for PBXProject "Hark AI" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -338,9 +338,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5C581F232AB47EB1006F94D1 /* Memo AI */,
-				5C581F332AB47EB4006F94D1 /* Memo AITests */,
-				5C581F3D2AB47EB4006F94D1 /* Memo AIUITests */,
+				5C581F232AB47EB1006F94D1 /* Hark AI */,
+				5C581F332AB47EB4006F94D1 /* Hark AITests */,
+				5C581F3D2AB47EB4006F94D1 /* Hark AIUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -424,12 +424,12 @@
 /* Begin PBXTargetDependency section */
 		5C581F362AB47EB4006F94D1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5C581F232AB47EB1006F94D1 /* Memo AI */;
+			target = 5C581F232AB47EB1006F94D1 /* Hark AI */;
 			targetProxy = 5C581F352AB47EB4006F94D1 /* PBXContainerItemProxy */;
 		};
 		5C581F402AB47EB4006F94D1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5C581F232AB47EB1006F94D1 /* Memo AI */;
+			target = 5C581F232AB47EB1006F94D1 /* Hark AI */;
 			targetProxy = 5C581F3F2AB47EB4006F94D1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -559,11 +559,11 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Memo AI/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Hark AI/Preview Content\"";
 				DEVELOPMENT_TEAM = 3864YR83JA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Memo AI";
+				INFOPLIST_KEY_CFBundleDisplayName = "Hark AI";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -577,8 +577,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.memoai.app;
-				PRODUCT_NAME = "Memo AI";
+				PRODUCT_BUNDLE_IDENTIFIER = com.harkai.app;
+				PRODUCT_NAME = "Hark AI";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -597,11 +597,11 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Memo AI/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Hark AI/Preview Content\"";
 				DEVELOPMENT_TEAM = 3864YR83JA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Memo AI";
+				INFOPLIST_KEY_CFBundleDisplayName = "Hark AI";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -615,8 +615,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.memoai.app;
-				PRODUCT_NAME = "Memo AI";
+				PRODUCT_BUNDLE_IDENTIFIER = com.harkai.app;
+				PRODUCT_NAME = "Hark AI";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -637,12 +637,12 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.memoai.app-Tests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.harkai.app-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Memo AI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Memo AI";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hark AI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Hark AI";
 			};
 			name = Debug;
 		};
@@ -656,12 +656,12 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.memoai.app-Tests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.harkai.app-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Memo AI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Memo AI";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hark AI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Hark AI";
 			};
 			name = Release;
 		};
@@ -673,12 +673,12 @@
 				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.memoai.app-UITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.harkai.app-UITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Memo AI";
+				TEST_TARGET_NAME = "Hark AI";
 			};
 			name = Debug;
 		};
@@ -690,19 +690,19 @@
 				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.memoai.app-UITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.harkai.app-UITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Memo AI";
+				TEST_TARGET_NAME = "Hark AI";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5C581F1F2AB47EB1006F94D1 /* Build configuration list for PBXProject "Memo AI" */ = {
+		5C581F1F2AB47EB1006F94D1 /* Build configuration list for PBXProject "Hark AI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5C581F462AB47EB4006F94D1 /* Debug */,
@@ -711,7 +711,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5C581F482AB47EB4006F94D1 /* Build configuration list for PBXNativeTarget "Memo AI" */ = {
+		5C581F482AB47EB4006F94D1 /* Build configuration list for PBXNativeTarget "Hark AI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5C581F492AB47EB4006F94D1 /* Debug */,
@@ -720,7 +720,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5C581F4B2AB47EB4006F94D1 /* Build configuration list for PBXNativeTarget "Memo AITests" */ = {
+		5C581F4B2AB47EB4006F94D1 /* Build configuration list for PBXNativeTarget "Hark AITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5C581F4C2AB47EB4006F94D1 /* Debug */,
@@ -729,7 +729,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5C581F4E2AB47EB4006F94D1 /* Build configuration list for PBXNativeTarget "Memo AIUITests" */ = {
+		5C581F4E2AB47EB4006F94D1 /* Build configuration list for PBXNativeTarget "Hark AIUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5C581F4F2AB47EB4006F94D1 /* Debug */,

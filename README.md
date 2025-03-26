@@ -1,7 +1,7 @@
-# Memo AI
+# Hark AI
 
 <div align="center">
-  <img src="Screenshots/memo_ai_banner_wide.png" alt="Memo AI" width="100%" style="max-width: 1200px;"/>
+  <img src="Screenshots/hark_ai_banner.png" alt="Hark AI" width="100%" style="max-width: 1200px;"/>
 </div>
 
 A modern iOS reminder app built with SwiftUI. It leverages CoreData for robust data persistence and provides a modern, intuitive interface for managing your daily tasks and reminders.
@@ -36,9 +36,9 @@ A modern iOS reminder app built with SwiftUI. It leverages CoreData for robust d
 
 1. Clone the repository
 ```bash
-git clone https://github.com/d999ss/Memo.git
+git clone https://github.com/d999ss/Hark.git
 ```
-2. Open `Memo AI.xcodeproj` in Xcode
+2. Open `Hark AI.xcodeproj` in Xcode
 3. Build and run the project
 
 ## Screenshots
@@ -51,4 +51,4 @@ git clone https://github.com/d999ss/Memo.git
 
 ## License
 
-Copyright 2025 Memo AI. All rights reserved.
+Copyright 2025 Hark AI. All rights reserved.

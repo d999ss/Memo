@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1620"
+   LastUpgradeVersion = "1500"
    version = "1.7">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5C581F232AB47EB1006F94D1"
-               BuildableName = "Memo AI.app"
-               BlueprintName = "Memo AI"
-               ReferencedContainer = "container:Memo AI.xcodeproj">
+               BuildableName = "Hark AI.app"
+               BlueprintName = "Hark AI"
+               ReferencedContainer = "container:Hark AI.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,9 +35,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5C581F332AB47EB4006F94D1"
-               BuildableName = "Memo AITests.xctest"
-               BlueprintName = "Memo AITests"
-               ReferencedContainer = "container:Memo AI.xcodeproj">
+               BuildableName = "Hark AITests.xctest"
+               BlueprintName = "Hark AITests"
+               ReferencedContainer = "container:Hark AI.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -46,9 +46,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5C581F3D2AB47EB4006F94D1"
-               BuildableName = "Memo AIUITests.xctest"
-               BlueprintName = "Memo AIUITests"
-               ReferencedContainer = "container:Memo AI.xcodeproj">
+               BuildableName = "Hark AIUITests.xctest"
+               BlueprintName = "Hark AIUITests"
+               ReferencedContainer = "container:Hark AI.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -68,9 +68,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5C581F232AB47EB1006F94D1"
-            BuildableName = "Memo AI.app"
-            BlueprintName = "Memo AI"
-            ReferencedContainer = "container:Memo AI.xcodeproj">
+            BuildableName = "Hark AI.app"
+            BlueprintName = "Hark AI"
+            ReferencedContainer = "container:Hark AI.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -85,9 +85,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5C581F232AB47EB1006F94D1"
-            BuildableName = "Memo AI.app"
-            BlueprintName = "Memo AI"
-            ReferencedContainer = "container:Memo AI.xcodeproj">
+            BuildableName = "Hark AI.app"
+            BlueprintName = "Hark AI"
+            ReferencedContainer = "container:Hark AI.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
